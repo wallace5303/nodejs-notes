@@ -1,7 +1,7 @@
 <h1 align="center"> node.js-notes </h1>
 <h3 align="center"> 知识点 </h3>
 <p align="center"> 
-Linux、计算机网络、数据结构、算法、Node.js、MySQL、设计模式、Redis、MQ、安全
+Linux、计算机网络、数据结构、算法、Node.js、MySQL、设计模式、Redis、队列、安全
 </p>
 
 ### 目录
@@ -61,13 +61,11 @@ Linux、计算机网络、数据结构、算法、Node.js、MySQL、设计模式
   - 排序
     - 基于比较的排序
       - [冒泡排序](算法/冒泡排序.md)
-      - [选择排序](算法/选择排序.md)
-      - [插入排序](算法/插入排序.md)
-      - [归并排序](算法/归并排序.md)
-      - [快速排序](算法/快速排序.md)
-      - [堆排序](算法/堆排序.md)
-    - [非基于比较的排序](算法/非基于比较的排序.md)
-      - [计数排序](算法/计数排序.md)
+      - 选择排序
+      - 插入排序
+      - 归并排序
+      - 快速排序
+      - 堆排序
   
   - [排序算法的稳定性及其汇总](算法/排序算法的稳定性及其汇总.md)
   - [Java中的比较器之Comparator](算法/Java中的比较器之Comparator.md)
@@ -86,7 +84,8 @@ Linux、计算机网络、数据结构、算法、Node.js、MySQL、设计模式
   - [猴子选大王](算法/猴子选大王.md)
 
 - Node.js
-
+  - js基础
+  - nodejs基础
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
@@ -113,7 +112,7 @@ Linux、计算机网络、数据结构、算法、Node.js、MySQL、设计模式
   - [redis基础](redis/redis基础.md)
   - [redis持久化](redis/redis持久化.md)
 
-- MQ
+- 队列
   
 - 容器
   - [Docker基础操作](容器/Docker基础操作.md)
